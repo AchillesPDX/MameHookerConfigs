@@ -4,18 +4,11 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 SetWorkingDir \RetroBat-TriggerHappy\emulators\m2emulator\  ; Ensures a consistent starting directory.
 #SingleInstance force
 
-Run, \RetroBat-TriggerHappy\tools\mamehooker5.1\mamehook.exe
-sleep, 2000
 Run, \RetroBat-TriggerHappy\tools\DemulShooter\DemulShooter.exe -target=model2 -rom=vcop
 Run, emulator_multicpu.exe vcop
 
+
 Escape::
 	WinClose, ahk_exe emulator_multicpu.exe
-	sleep, 1000
-    Process,Close,Demulshooter.exe
-    Run,taskkill /im "Demulshooter.exe" /F
-	sleep, 1000	
-	Process,Close,mamehook.exe
-    Run,taskkill /im "mamehook.exe" /F
     ExitApp
 return
