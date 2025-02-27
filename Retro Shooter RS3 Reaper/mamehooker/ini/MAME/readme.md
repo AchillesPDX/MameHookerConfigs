@@ -7,6 +7,7 @@ All of these ***REQUIRE*** the scripts to be copied to the mamehooker scripts fo
 | Haunted Museum II                              | ArcadePC     | 2011 | fearland                    |                                                                                |
 | House of the Dead: Scarlet Dawn                | ArcadePC     | 2018 | hodsd                       |                                                                                |
 | Let's Go Island: Lost on the Island of Tropics | ArcadePC     | 2011 | lgi                         |                                                                                |
+| NERF Arcade                                    | ArcadePC     | 2019 | nerfa                       |                                                                                |
 | Point Blank X                                  | ArcadePC     | 2016 | pblankx                     |                                                                                |
 | Rabbids Hollywood Arcade                       | ArcadePC     | 2017 | rha                         |                                                                                |
 | Tomb Raider Arcade                             | ArcadePC     | 2018 | tra                         |                                                                                |
